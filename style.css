@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 main {
-    padding: 90px 1em 1em;
+    padding: 100px 1em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
