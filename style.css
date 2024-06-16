@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f8ff;
+    background-image: url(20210812_175701_1.jpg);
     color: #333;
 }
 
@@ -51,7 +52,7 @@ footer {
 }
 
 .hero {
-    background-image: url(20210812_175701_1.jpg);
+    background-image: url(verde-bandeira\ 1.png);
     background-size: cover;
     background-position: center;
     padding: 4em 2em;
