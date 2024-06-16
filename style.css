@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f0f8ff;
     color: #333;
 }
 
 header {
-    background-color: #FFD700;
-    color: black;
+    background-color: #1e90ff;
+    color: white;
     padding: 1em 0;
     text-align: center;
     position: fixed;
@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -41,8 +41,8 @@ main {
 }
 
 footer {
-    background-color: #FFD700;
-    color: black;
+    background-color: #1e90ff;
+    color: white;
     text-align: center;
     padding: 1em 0;
     position: relative;
@@ -51,7 +51,7 @@ footer {
 }
 
 .hero {
-    background-image: url('images/bees_background.jpg');
+    background-image: url('images/colonos_background.jpg');
     background-size: cover;
     background-position: center;
     padding: 4em 2em;
@@ -104,27 +104,26 @@ section.content img {
     margin-bottom: 1em;
 }
 
-.gallery {
+.services {
     width: 100%;
     max-width: 800px;
     text-align: center;
 }
 
-.gallery-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 1em;
-}
-
-.gallery-images img {
+.service-item {
+    display: inline-block;
     width: 30%;
     margin-bottom: 1em;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
-.gallery-images img:hover {
+.service-item img:hover {
     transform: scale(1.05);
 }
 
@@ -160,4 +159,21 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #e0f7fa;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
 }
